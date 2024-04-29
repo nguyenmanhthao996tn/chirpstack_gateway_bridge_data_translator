@@ -1,0 +1,1 @@
+# chirpstack_gateway_bridge_data_translator
