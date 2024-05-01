@@ -1,3 +1,5 @@
+github.com/BurntSushi/toml v1.3.2 h1:o7IhLm0Msx3BaB+n3Ag7L8EVlByGnpq14C4YWiu/gL8=
+github.com/BurntSushi/toml v1.3.2/go.mod h1:CxXYINrC8qIiEnFrOxCa7Jy5BFHlXnUU2pbicEuybxQ=
 github.com/chirpstack/chirpstack/api/go/v4 v4.7.0 h1:LgtwvUm/pDvmBYgVc62khybuFdXnx0Hyj9MfKGkXufI=
 github.com/chirpstack/chirpstack/api/go/v4 v4.7.0/go.mod h1:6+68s1PGHq2QWZ216RTwXhp7h1vCiMc6kX3f4s74ZzQ=
 github.com/eclipse/paho.mqtt.golang v1.4.3 h1:2kwcUGn8seMUfWndX0hGbvH8r7crgcJguQNCyp70xik=
