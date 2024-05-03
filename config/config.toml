@@ -1,10 +1,17 @@
-Mqtt_broker_address = "manhthao.ovh"
-Mqtt_broker_port = 11883
+# The MQTT Broker address and port
+Mqtt_broker_address = "localhost"
+Mqtt_broker_port = 1883
 
+# The client information
 Mqtt_client_id = "go_Mqtt_client"
 Mqtt_client_username = ""
 Mqtt_client_password = ""
 
-Mqtt_listen_topic = "as923_2/gateway/#"
+# The topic that the translator will listening for Protobuf messages
+Mqtt_listen_topic = "listening_topic/#"
 
-Mqtt_translate_topic = "translated/"
+# The "parent" topic that that the translator will send translated JSON messaged to.
+#
+# Example: A Protobuf message from the topic "eu868/gateway/gw1234/event/up" will be 
+#          translated & send to topic "<Mqtt_translate_topic>/eu868/gateway/gw1234/event/up"
+Mqtt_translate_topic = "translating_topic/"
