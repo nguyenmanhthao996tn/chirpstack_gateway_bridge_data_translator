@@ -1,0 +1,10 @@
+Mqtt_broker_address = "manhthao.ovh"
+Mqtt_broker_port = 11883
+
+Mqtt_client_id = "go_Mqtt_client"
+Mqtt_client_username = ""
+Mqtt_client_password = ""
+
+Mqtt_listen_topic = "as923_2/gateway/#"
+
+Mqtt_translate_topic = "translated/"
