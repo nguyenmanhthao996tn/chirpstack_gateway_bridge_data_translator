@@ -4,5 +4,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: chirpstack-translator
     volumes:
       - ./:/chirpstack-gw-protobuf-translator

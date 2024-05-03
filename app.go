@@ -213,7 +213,7 @@ func set_conf_default_value(conf *Config) {
 }
 
 func read_conf_from_toml(conf *Config) {
-    dat, err := os.ReadFile("./config.toml")
+    dat, err := os.ReadFile("/chirpstack-gw-protobuf-translator/config/config.toml")
 	check(err)
 
     _, err1 := toml.Decode(string(dat), &conf)
