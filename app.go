@@ -168,7 +168,7 @@ func main() {
     sub(client)
     // publish(client)
 
-    for {}
+    select {}
 
     client.Disconnect(250)
 }

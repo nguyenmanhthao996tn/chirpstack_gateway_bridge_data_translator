@@ -26,6 +26,6 @@ Update the configuration file which is located at `config/config.toml` and (re)s
 
 # Todo
 
-- [ ] Optimize the CPU usage
+- [x] Optimize the CPU usage
 
 ###### 🍀🤞 glhf 🤞🍀
