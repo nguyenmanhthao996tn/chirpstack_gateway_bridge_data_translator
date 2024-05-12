@@ -7,3 +7,4 @@ services:
     container_name: chirpstack-translator
     volumes:
       - ./:/chirpstack-gw-protobuf-translator
+    restart: unless-stopped
