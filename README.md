@@ -27,5 +27,6 @@ Update the configuration file which is located at `config/config.toml` and (re)s
 # Todo
 
 - [x] Optimize the CPU usage
+- [ ] Docker health check implementation
 
 ###### 🍀🤞 glhf 🤞🍀
